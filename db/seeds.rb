@@ -56,8 +56,8 @@ e_first_answer_four = Answer.create(question: question_four,
   "<p>You know when you write notes and pass them to Suzie from
   down the street? That's kind of what I do. Websites are like notes
   you want your friends to read. For them to read your notes, you
-  need to alos give them the note right? Well that is what the Internet
-  does for you. It send the websites to the people who want to read
+  need to also give them the note right? Well that is what the Internet
+  does for you. It sends the websites to the people who want to read
   them.</p>
 
   <p>The best part is, you know how you don't want Ms. Robinson to see
@@ -69,4 +69,55 @@ e_second_answer_four = Answer.create(question: question_four,
   vote_count: 12, vote_score: -7, content:
   "<p>Web development is like, you know, creating front end
   presentations of backend APIs using asynchronious requests.</p>"
+)
+
+question_six = Question.create(content: "How does the web work?")
+
+# ----------- Q6 -----------
+e_first_answer_six = Answer.create(question: question_six,
+  vote_count: 22, vote_score: -20, content:
+  "<p>It's a series of tubes.</p>"
+)
+
+e_second_answer_six = Answer.create(question: question_six,
+  vote_count: 7, vote_score: 5, content:
+  "The Internet has a technical side and a social side. There's the
+  infrastructure, like routers, cables, satelites, ISPs, servers,
+  and website code, and there are the users who participate in the
+  Internet by creating content for it's applications and browsing
+  the sites.</p>
+
+  <p>I imagine you guys are interested in the technical side though
+  right? (Yes)</p>
+
+  <p>In short, I'd say it's a communication network designed
+  to deliver messages between computers. One of the most interesting
+  things about it, I think, is that in the end, it really is a
+  bunch of cables! Some run under the oceans, others go through
+  mountains and under forests. Some signals travel through space! All
+  the code we write goes through those cables, I think that's pretty
+  amazing!</p>"
+)
+
+question_eight = Question.create(content: "How did you learn programming?")
+
+# ----------- Q8 -----------
+e_first_answer_eight = Answer.create(question: question_eight,
+  vote_count: 4, vote_score: -3, content:
+  "<p>I just started Googling it you know, and I liked doing it so
+  I ended up trying to do it professionally.</p>"
+)
+
+e_second_answer_eight = Answer.create(question: question_eight,
+  vote_count: 4, vote_score: -3, content:
+  "<p>For me, it started back in 2011 when I was doing social science
+  at Stockholm University. The creation of communities had become a
+  passion of mine so I was exploring ways of finding data on
+  social netwroks. The INternet was the obvious place to look so I
+  found myself writing Python scripts to build simple web scrapers and
+  spiders.</p>
+
+  <p>It was exciting, I discovered coding makes me happy not just for
+  the results it creates but because I like the way it looks. Solving
+  problems is interesting.</p>"
 )
