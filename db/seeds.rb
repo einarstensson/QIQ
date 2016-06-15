@@ -28,3 +28,45 @@ question_twentyseven= Question.create(content: "How would you declare and use a 
 question_twentyeight = Question.create(content: "Do you have any questions for me?")
 question_twentynine = Question.create(content: "How do you evaluate success?")
 question_thirty = Question.create(content: "How would you describe your work style?")
+
+# Einar's answers
+# ----------- Q2 -----------
+e_first_answer_two = Answer.create(question: question_two, vote_count: 20,
+  vote_score: 15, content:
+  "<p>Three, and more than you'd expect!</p>
+
+  <p>You could center a div horizontally, vertically, or both and there are
+  a ton of ways to do them each. It also depends on what you're trying to
+  center. The most common way I do it is using the margins. If you set
+    a div's margin to 0 auto, to will automatically get the width of the
+    client's screen and use that information to center the div.</p>
+
+  <p>If I had text within a div, I wold use the text-align: center css
+  attribute on the div.</p>"
+)
+
+e_second_answer_two = Answer.create(question: question_two,
+  vote_count: 7, vote_score: -5, content:
+  "<p>Just use margin dude.</p>"
+)
+
+# ----------- Q4 -----------
+e_first_answer_four = Answer.create(question: question_four,
+  vote_count: 2, vote_score: 2, content:
+  "<p>You know when you write notes and pass them to Suzie from
+  down the street? That's kind of what I do. Websites are like notes
+  you want your friends to read. For them to read your notes, you
+  need to alos give them the note right? Well that is what the Internet
+  does for you. It send the websites to the people who want to read
+  them.</p>
+
+  <p>The best part is, you know how you don't want Ms. Robinson to see
+  you pass that note? It's like that with the Internet too. There's
+  ways of keeping the visits to your website secret!</p>"
+)
+
+e_second_answer_four = Answer.create(question: question_four,
+  vote_count: 12, vote_score: -7, content:
+  "<p>Web development is like, you know, creating front end
+  presentations of backend APIs using asynchronious requests.</p>"
+)
