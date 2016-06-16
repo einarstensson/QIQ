@@ -113,7 +113,7 @@ e_second_answer_eight = Answer.create(question: question_eight,
   "<p>For me, it started back in 2011 when I was doing social science
   at Stockholm University. The creation of communities had become a
   passion of mine so I was exploring ways of finding data on
-  social netwroks. The INternet was the obvious place to look so I
+  social networks. The Internet was the obvious place to look so I
   found myself writing Python scripts to build simple web scrapers and
   spiders.</p>
 
