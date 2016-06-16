@@ -3,7 +3,12 @@ module Api
     class QuestionsController < ApplicationController
 
       def index
-        render json: Question.all, include: ['answers']
+        render json: Question.includes(:answers).all, include: ['answers']
+      end
+
+      def show
+        question = Question.find_by(id: params[:id])
+        render json: question, include: ['answers']
       end
 
     end
