@@ -7,9 +7,9 @@ module Api
       end
 
       def create
-        content = params['content']
+        content = params['attributes']['content']
 
-        question_id = params['question_id']
+        question_id = params['attributes']['question_id']
 
         question = Question.find_by(id: question_id)
         question.answers.new(content: content)
