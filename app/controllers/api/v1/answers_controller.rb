@@ -7,9 +7,12 @@ module Api
         content = answer_params['content']
         vote_count = answer_params['vote-count']
         vote_score = answer_params['vote-score']
+        approved = answer_params['approved']
+
         question_id = question_id_params['id']
         question = Question.find_by(id: question_id)
-        question.answers.create(content: content, vote_count: vote_count, vote_score: vote_score )
+        question.answers.create(content: content, vote_count: vote_count, vote_score: vote_score,
+          approved: approved)
 
         render json: question.answers.last
       end
@@ -20,7 +23,11 @@ module Api
         content = answer_params['content']
         vote_count = answer_params['vote-count']
         vote_score = answer_params['vote-score']
-        answer.update(content: content, vote_count: vote_count, vote_score: vote_score )
+        approved = answer_params['approved']
+
+        answer.update(content: content, vote_count: vote_count, vote_score: vote_score,
+        approved: approved)
+
         render json: answer
       end
 
@@ -32,7 +39,7 @@ module Api
 
       #update the params
       def answer_params
-        params.require(:data).require(:attributes).permit(:content, "vote-count", "vote-score")
+        params.require(:data).require(:attributes).permit(:content, "vote-count", "vote-score", :approved)
       end
 
       def question_id_params
