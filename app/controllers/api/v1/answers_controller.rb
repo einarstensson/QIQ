@@ -4,20 +4,23 @@ module Api
     class AnswersController < ApplicationController
 
       def create
-        debugger
         content = answer_params['content']
+        vote_count = answer_params['vote-count']
+        vote_score = answer_params['vote-score']
         question_id = question_id_params['id']
         question = Question.find_by(id: question_id)
-        question.answers.create(content: content)
+        question.answers.create(content: content, vote_count: vote_count, vote_score: vote_score )
 
         render json: question.answers.last
       end
 
       #for the up/downvoting
       def update
-        debugger
         answer = Answer.find(params[:id])
-        answer.update(vote_count: params[:data][:attributes]['vote-count'])
+        content = answer_params['content']
+        vote_count = answer_params['vote-count']
+        vote_score = answer_params['vote-score']
+        answer.update(content: content, vote_count: vote_count, vote_score: vote_score )
         render json: answer
       end
 
@@ -29,7 +32,7 @@ module Api
 
       #update the params
       def answer_params
-        params.require(:data).require(:attributes).permit(:content, :vote_count, :vote_score)
+        params.require(:data).require(:attributes).permit(:content, "vote-count", "vote-score")
       end
 
       def question_id_params
