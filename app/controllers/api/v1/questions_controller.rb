@@ -8,7 +8,7 @@ module Api
       end
 
       def getRandomQuestion
-        id = rand(0..Question.all.size) + 1
+        id = rand(1..30)
         render json: {id: id}
       end
 
