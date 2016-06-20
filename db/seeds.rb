@@ -121,3 +121,65 @@ e_second_answer_eight = Answer.create(question: question_eight,
   the results it creates but because I like the way it looks. Solving
   problems is interesting.</p>"
 )
+
+#lamine answers
+#-------------------
+
+
+one_answer_one = Answer.create(question: question_one, content: "for the best possible opportunity", vote_count: 6, vote_score: -3)
+
+
+
+one_answer_three = Answer.create(question: question_three, content: "Working with a big group of people, as a programmer I can usually figure out the problem if I keep hacking it on my own but it becomes a burden for me when multiple people join in with me.", vote_count: 12, vote_score: 5)
+
+
+one_answer_five = Answer.create(question: question_five, content: "The energy of the people around me. I did not feel any real passion in their work which affected me deeply and prompted me to change courses.", vote_count: 7, vote_score: 5)
+
+
+one_answer_seven = Answer.create(question: question_seven, content: "Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).", vote_count: 7, vote_score: 6)
+
+
+one_answer_nine= Answer.create(question: question_nine, content: "When functions in JavaScript execute, they use the same scope chain that was in effect when they were created. This means that even after the outer function has returned, the inner function still has access to the outer function's variables.", vote_count: 8, vote_score: 7)
+
+
+one_answer_eleven=  Answer.create(question: question_eleven, content: "Refactoring the code that we had previously written for our app using service and adapters.", vote_count: 7, vote_score: 4)
+
+
+
+
+one_answer_thirteen = Answer.create(question: question_thirteen, content: "I would love to be implementing what I have learned in those previous five years by giving back to my company in a senior position", vote_count: 10, vote_score: 8)
+
+
+ing
+one_answer_fifteen = Answer.create(question: question_fifteen, content: "Prototypal inheritance (also: prototypes, OLOO). Functional programm (also: closures, first class functions, lambdas).", vote_count: 7, vote_score: 3)
+two_answer_fifteen = Answer.create(question: question_fifteen, content: "Is that a new syntax part of ES7", vote_count: 7, vote_score: -5)
+three_answer_fifteen = Answer.create(question: question_fifteen, content: "JavaScript is a multi-paradigm language, supporting imperative/procedural programming along with OOP (Object-Oriented Programming) and functional programming. JavaScript supports OOP with prototypal inheritance.", vote_count: 7, vote_score: 7)
+
+
+
+one_answer_seventeen = Answer.create(question: question_seventeen, content: "I worked on three recent rails project I basically wrote all the code for the project so lead architect I would say", vote_count: 10, vote_score: -7)
+two_answer_seventeen = Answer.create(question: question_seventeen, content: "Had a recent rails project where we focused on refactoring using services and getting 100% test coverage we had 98 but learned how to test controllers, features and models it was an awesome experience", vote_count: 10, vote_score: 7)
+
+
+
+one_answer_nineteen =  Answer.create(question: question_nineteen, content: "No, Thank you for your time", vote_count: 11, vote_score: 3)
+two_answer_nineteen = Answer.create(question: question_nineteen, content: "Yes, How do you implement your mission statement ", vote_count: 11, vote_score: 3)
+
+
+one_answer_twentyone= Answer.create(question: question_twentyone, content: "instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()", vote_count: 13, vote_score: 11)
+two_answer_twentyone= Answer.create(question: question_twentyone, content: "No preference for prototypal inheritance & composition over class inheritance.", vote_count: 13, vote_score: -7)
+
+
+one_answer_twentythree =  Answer.create(question: question_twentythree, content: "Polymorphic association is a term used in discussions of Object-Relational Mapping with respect to the problem of representing in the relational database domain, a relationship from one class to multiple classes", vote_count: 13, vote_score: 7)
+
+
+one_answer_twentyfive=  Answer.create(question: question_twentyfive, content: "What’s that?", vote_count: 7, vote_score: -7)
+
+one_answer_twentyseven=  Answer.create(question: question_twentyseven, content: "how about using the initialize method?", vote_count: 3, vote_score: -3)
+
+
+one_answer_twentynine = Answer.create(question: question_twentyseven, content: "Success is the march towards the realization of a worthy ideal?", vote_count: 4, vote_score: 2)
+
+
+
+
