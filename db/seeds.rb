@@ -46,7 +46,7 @@ e_first_answer_two = Answer.create(question: question_two, vote_count: 20,
 )
 
 e_second_answer_two = Answer.create(question: question_two,
-  vote_count: 7, vote_score: -5, content:
+  vote_count: 7, vote_score: -1, content:
   "<p>Just use margin dude.</p>"
 )
 
@@ -66,7 +66,7 @@ e_first_answer_four = Answer.create(question: question_four,
 )
 
 e_second_answer_four = Answer.create(question: question_four,
-  vote_count: 12, vote_score: -7, content:
+  vote_count: 4, vote_score: -2, content:
   "Web development is like, you know, creating front end
   presentations of backend APIs using asynchronious requests."
 )
@@ -75,7 +75,7 @@ question_six = Question.create(content: "How does the web work?")
 
 # ----------- Q6 -----------
 e_first_answer_six = Answer.create(question: question_six,
-  vote_count: 22, vote_score: -20, content:
+  vote_count: 3, vote_score: -2, content:
   "It's a series of tubes."
 )
 
@@ -126,21 +126,22 @@ e_second_answer_eight = Answer.create(question: question_eight,
 #-------------------
 
 
-one_answer_one = Answer.create(question: question_one, content: "for the best possible opportunity", vote_count: 6, vote_score: -3)
-
+one_answer_one = Answer.create(question: question_one, content: "For the best possible opportunity", vote_count: 6, vote_score: -1)
+two_answer_one = Answer.create(question: question_one, content: "I am looking to develop my ability to handle production deployments and ability to communicate with a computer program through algorithms and other functions I have learned at school and will learn in my next job", vote_count: 9, vote_score: 7)
 
 
 one_answer_three = Answer.create(question: question_three, content: "Working with a big group of people, as a programmer I can usually figure out the problem if I keep hacking it on my own but it becomes a burden for me when multiple people join in with me.", vote_count: 12, vote_score: 5)
+two_answer_three = Answer.create(question: question_three, content: "I would definitely say that my strength would be sitting in front of my computer and weakness in front of an interviewer.", vote_count: 5, vote_score: 3)
 
 
 one_answer_five = Answer.create(question: question_five, content: "The energy of the people around me. I did not feel any real passion in their work which affected me deeply and prompted me to change courses.", vote_count: 7, vote_score: 5)
-
+two_answer_five = Answer.create(question: question_five, content: "I felt that there was a lot of politics and that your voice or position within the company was not reflective of the hard work and level competence I brought to the table.", vote_count: 11, vote_score: 8)
 
 one_answer_seven = Answer.create(question: question_seven, content: "Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).", vote_count: 7, vote_score: 6)
-
+two_answer_seven = Answer.create(question: question_seven, content: "I beleive the variables in JavaScript are assigned on a first come first serve basis?", vote_count: 3, vote_score: -2)
 
 one_answer_nine= Answer.create(question: question_nine, content: "When functions in JavaScript execute, they use the same scope chain that was in effect when they were created. This means that even after the outer function has returned, the inner function still has access to the outer function's variables.", vote_count: 8, vote_score: 7)
-
+two_answer_nine = Answer.create(question: question_nine, content: "The end of a project. Usually involves closing the books and the servers after deployment.", vote_count: 9, vote_score: -2)
 
 one_answer_eleven=  Answer.create(question: question_eleven, content: "Refactoring the code that we had previously written for our app using service and adapters.", vote_count: 7, vote_score: 4)
 
@@ -152,7 +153,7 @@ one_answer_thirteen = Answer.create(question: question_thirteen, content: "I wou
 
 
 one_answer_fifteen = Answer.create(question: question_fifteen, content: "Prototypal inheritance (also: prototypes, OLOO). Functional programm (also: closures, first class functions, lambdas).", vote_count: 7, vote_score: 3)
-two_answer_fifteen = Answer.create(question: question_fifteen, content: "Is that a new syntax part of ES7", vote_count: 7, vote_score: -5)
+two_answer_fifteen = Answer.create(question: question_fifteen, content: "Is that a new syntax part of ES7", vote_count: 11, vote_score: -2)
 three_answer_fifteen = Answer.create(question: question_fifteen, content: "JavaScript is a multi-paradigm language, supporting imperative/procedural programming along with OOP (Object-Oriented Programming) and functional programming. JavaScript supports OOP with prototypal inheritance.", vote_count: 7, vote_score: 7)
 
 
@@ -167,15 +168,15 @@ two_answer_nineteen = Answer.create(question: question_nineteen, content: "Yes, 
 
 
 one_answer_twentyone= Answer.create(question: question_twentyone, content: "instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()", vote_count: 13, vote_score: 11)
-two_answer_twentyone= Answer.create(question: question_twentyone, content: "No preference for prototypal inheritance & composition over class inheritance.", vote_count: 13, vote_score: -7)
+two_answer_twentyone= Answer.create(question: question_twentyone, content: "No preference for prototypal inheritance & composition over class inheritance.", vote_count: 13, vote_score: -2)
 
 
 one_answer_twentythree =  Answer.create(question: question_twentythree, content: "Polymorphic association is a term used in discussions of Object-Relational Mapping with respect to the problem of representing in the relational database domain, a relationship from one class to multiple classes", vote_count: 13, vote_score: 7)
 
 
-one_answer_twentyfive=  Answer.create(question: question_twentyfive, content: "What’s that?", vote_count: 7, vote_score: -7)
+one_answer_twentyfive=  Answer.create(question: question_twentyfive, content: "What’s that?", vote_count: 1, vote_score: -1)
 
-one_answer_twentyseven=  Answer.create(question: question_twentyseven, content: "how about using the initialize method?", vote_count: 3, vote_score: -3)
+one_answer_twentyseven=  Answer.create(question: question_twentyseven, content: "how about using the initialize method?", vote_count: 3, vote_score: -2)
 
 
 one_answer_twentynine = Answer.create(question: question_twentyseven, content: "Success is the march towards the realization of a worthy ideal?", vote_count: 4, vote_score: 2)
@@ -187,7 +188,7 @@ two_answer_ten= Answer.create(question: question_ten, content: "I took some clas
 
 
 
-one_answer_twelve= Answer.create(question: question_twelve, content: "I’m born Sydney and live 15 years in the U.S", vote_count: 10, vote_score: -4)
+one_answer_twelve= Answer.create(question: question_twelve, content: "I’m born Sydney and live 15 years in the U.S", vote_count: 10, vote_score: -1)
 two_answer_twelve= Answer.create(question: question_twelve, content: "I am an engineer who quickly became in love with coding at a young age. I am striving to become the best programmer I could be and I hope that with time I will be able to accomplish that goal", vote_count: 10, vote_score: 6)
 
 
@@ -195,7 +196,7 @@ two_answer_twelve= Answer.create(question: question_twelve, content: "I am an en
 
 
 one_answer_fourteen = Answer.create(question: question_fourteen, content: "Because I align with your mission and how you help the community on a daily basis", vote_count: 7, vote_score: 4)
-two_answer_fourteen = Answer.create(question: question_fourteen, content: "You're a big corporation with a lot of opportunities.", vote_count: 7, vote_score: -3)
+two_answer_fourteen = Answer.create(question: question_fourteen, content: "You're a big corporation with a lot of opportunities.", vote_count: 7, vote_score: -2)
 
 
 
@@ -220,7 +221,7 @@ two_answer_twentyfour = Answer.create(question: question_twentyfour, content: "B
 
 
 one_answer_twentysix = Answer.create(question: question_twentysix, content: "Because of the mission and sense of community this company instills in the workplace." , vote_count: 6, vote_score: 4)
-two_answer_twentysix=Answer.create(question: question_twentysix, content: "I love the perks you have at your office. I can definitely utilize some free lunches", vote_count: 7, vote_score: -5)
+two_answer_twentysix=Answer.create(question: question_twentysix, content: "I love the perks you have at your office. I can definitely utilize some free lunches", vote_count: 7, vote_score: -1)
 
 
 one_answer_twentyeight = Answer.create(question: question_twentyeight, content: "I do not thank you for your time.", vote_count: 3, vote_score: -1)
@@ -228,7 +229,7 @@ two_answer_twentyeight = Answer.create(question: question_twentyeight, content: 
 
 
 
-one_answer_thirty = Answer.create(question: question_thirty, content: "Laidback", vote_count: 10, vote_score: -8)
+one_answer_thirty = Answer.create(question: question_thirty, content: "Laidback", vote_count: 10, vote_score: -2)
 two_answer_thirty = Answer.create(question: question_thirty, content: "I am a deadline onlooker I strive towards the goal and ravage anything or anybody thats on my way", vote_count: 3, vote_score: -2)
 three_answer_thirty = Answer.create(question: question_thirty, content: "I am open to the workload and task assigned by my superior. The more informed the better but I have no problem improvising and getting assignments done before the dealines", vote_count: 9, vote_score: 6)
 
