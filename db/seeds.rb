@@ -33,16 +33,16 @@ question_thirty = Question.create(content: "How would you describe your work sty
 # ----------- Q2 -----------
 e_first_answer_two = Answer.create(question: question_two, vote_count: 20,
   vote_score: 15, content:
-  "<p>Three, and more than you'd expect!</p>
-
-  <p>You could center a div horizontally, vertically, or both and there are
+  "Three, and more than you'd expect!
+  <br>
+  You could center a div horizontally, vertically, or both and there are
   a ton of ways to do them each. It also depends on what you're trying to
   center. The most common way I do it is using the margins. If you set
     a div's margin to 0 auto, to will automatically get the width of the
-    client's screen and use that information to center the div.</p>
-
-  <p>If I had text within a div, I wold use the text-align: center css
-  attribute on the div.</p>"
+    client's screen and use that information to center the div.
+  <br>
+  If I had text within a div, I wold use the text-align: center css
+  attribute on the div."
 )
 
 e_second_answer_two = Answer.create(question: question_two,
@@ -53,22 +53,22 @@ e_second_answer_two = Answer.create(question: question_two,
 # ----------- Q4 -----------
 e_first_answer_four = Answer.create(question: question_four,
   vote_count: 2, vote_score: 2, content:
-  "<p>You know when you write notes and pass them to Suzie from
+  "You know when you write notes and pass them to Suzie from
   down the street? That's kind of what I do. Websites are like notes
   you want your friends to read. For them to read your notes, you
   need to also give them the note right? Well that is what the Internet
   does for you. It sends the websites to the people who want to read
-  them.</p>
-
-  <p>The best part is, you know how you don't want Ms. Robinson to see
+  them.
+  <br>
+  The best part is, you know how you don't want Ms. Robinson to see
   you pass that note? It's like that with the Internet too. There's
-  ways of keeping the visits to your website secret!</p>"
+  ways of keeping the visits to your website secret!"
 )
 
 e_second_answer_four = Answer.create(question: question_four,
   vote_count: 12, vote_score: -7, content:
-  "<p>Web development is like, you know, creating front end
-  presentations of backend APIs using asynchronious requests.</p>"
+  "Web development is like, you know, creating front end
+  presentations of backend APIs using asynchronious requests."
 )
 
 question_six = Question.create(content: "How does the web work?")
@@ -76,7 +76,7 @@ question_six = Question.create(content: "How does the web work?")
 # ----------- Q6 -----------
 e_first_answer_six = Answer.create(question: question_six,
   vote_count: 22, vote_score: -20, content:
-  "<p>It's a series of tubes.</p>"
+  "It's a series of tubes."
 )
 
 e_second_answer_six = Answer.create(question: question_six,
@@ -85,18 +85,18 @@ e_second_answer_six = Answer.create(question: question_six,
   infrastructure, like routers, cables, satelites, ISPs, servers,
   and website code, and there are the users who participate in the
   Internet by creating content for it's applications and browsing
-  the sites.</p>
-
-  <p>I imagine you guys are interested in the technical side though
-  right? (Yes)</p>
-
-  <p>In short, I'd say it's a communication network designed
+  the sites.
+  <br>
+  I imagine you guys are interested in the technical side though
+  right? (Yes)
+  <br>
+  In short, I'd say it's a communication network designed
   to deliver messages between computers. One of the most interesting
   things about it, I think, is that in the end, it really is a
   bunch of cables! Some run under the oceans, others go through
   mountains and under forests. Some signals travel through space! All
   the code we write goes through those cables, I think that's pretty
-  amazing!</p>"
+  amazing!"
 )
 
 question_eight = Question.create(content: "How did you learn programming?")
@@ -104,22 +104,22 @@ question_eight = Question.create(content: "How did you learn programming?")
 # ----------- Q8 -----------
 e_first_answer_eight = Answer.create(question: question_eight,
   vote_count: 4, vote_score: -3, content:
-  "<p>I just started Googling it you know, and I liked doing it so
-  I ended up trying to do it professionally.</p>"
+  "I just started Googling it you know, and I liked doing it so
+  I ended up trying to do it professionally."
 )
 
 e_second_answer_eight = Answer.create(question: question_eight,
   vote_count: 4, vote_score: -3, content:
-  "<p>For me, it started back in 2011 when I was doing social science
+  "For me, it started back in 2011 when I was doing social science
   at Stockholm University. The creation of communities had become a
   passion of mine so I was exploring ways of finding data on
   social networks. The Internet was the obvious place to look so I
   found myself writing Python scripts to build simple web scrapers and
-  spiders.</p>
-
-  <p>It was exciting, I discovered coding makes me happy not just for
+  spiders.
+  <br>
+  It was exciting, I discovered coding makes me happy not just for
   the results it creates but because I like the way it looks. Solving
-  problems is interesting.</p>"
+  problems is interesting."
 )
 
 #lamine answers
@@ -180,14 +180,15 @@ one_answer_twentyseven=  Answer.create(question: question_twentyseven, content: 
 
 one_answer_twentynine = Answer.create(question: question_twentyseven, content: "Success is the march towards the realization of a worthy ideal?", vote_count: 4, vote_score: 2)
 
-one_answer_ten= Answer.create(question: question_ten, content: “I learned web-development by taking classes at the flatiron school“, vote_count: 9, vote_score: 4)
-two_answer_ten= Answer.create(question: question_ten, content: “I took some classes online which included code academy and code school. At first I didn't think too much about it but I couldn't stop looking for classes. This is when I realized I’d be interested in making it a career for me“, vote_count: 10, vote_score: 8)
+
+one_answer_ten= Answer.create(question: question_ten, content: "I learned web-development by taking classes at the flatiron school", vote_count: 9, vote_score: 4)
+two_answer_ten= Answer.create(question: question_ten, content: "I took some classes online which included code academy and code school. At first I didn't think too much about it but I couldn't stop looking for classes. This is when I realized I’d be interested in making it a career for me", vote_count: 10, vote_score: 8)
 
 
 
 
-one_answer_twelve= Answer.create(question: question_twelve, content: “I’m born Sydney and live 15 years in the U.S“, vote_count: 10, vote_score: -4)
-two_answer_twelve= Answer.create(question: question_twelve, content: “I am an engineer who quickly became in love with coding at a young age. I am striving to become the best programmer I could be and I hope that with time I will be able to accomplish that goal“, vote_count: 10, vote_score: 6)
+one_answer_twelve= Answer.create(question: question_twelve, content: "I’m born Sydney and live 15 years in the U.S", vote_count: 10, vote_score: -4)
+two_answer_twelve= Answer.create(question: question_twelve, content: "I am an engineer who quickly became in love with coding at a young age. I am striving to become the best programmer I could be and I hope that with time I will be able to accomplish that goal", vote_count: 10, vote_score: 6)
 
 
 
@@ -230,6 +231,7 @@ two_answer_twentyeight = Answer.create(question: question_twentyeight, content: 
 one_answer_thirty = Answer.create(question: question_thirty, content: "Laidback", vote_count: 10, vote_score: -8)
 two_answer_thirty = Answer.create(question: question_thirty, content: "I am a deadline onlooker I strive towards the goal and ravage anything or anybody thats on my way", vote_count: 3, vote_score: -2)
 three_answer_thirty = Answer.create(question: question_thirty, content: "I am open to the workload and task assigned by my superior. The more informed the better but I have no problem improvising and getting assignments done before the dealines", vote_count: 9, vote_score: 6)
+
 
 
 

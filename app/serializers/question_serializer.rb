@@ -1,4 +1,4 @@
 class QuestionSerializer < ActiveModel::Serializer
-  attributes :id, :content
+  attributes :id, :content, :received_count
   has_many :answers
 end

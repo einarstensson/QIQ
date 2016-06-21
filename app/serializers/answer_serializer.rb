@@ -1,4 +1,4 @@
 class AnswerSerializer < ActiveModel::Serializer
-  attributes :id, :content, :vote_count, :vote_score, :question_id
+  attributes :id, :content, :vote_count, :vote_score, :question_id, :approved
   belongs_to :question
 end
