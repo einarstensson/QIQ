@@ -17,7 +17,7 @@ module Api
         render json: question.answers.last
       end
 
-      #for the up/downvoting
+      #for the up/downvotings
       def update
         answer = Answer.find(params[:id])
         content = answer_params['content']
@@ -32,7 +32,7 @@ module Api
       end
 
       def show
-        render json: Answer.find(params[:id])
+        render json: Answer.find(params[:id]), include: ['comments']
       end
 
       private
