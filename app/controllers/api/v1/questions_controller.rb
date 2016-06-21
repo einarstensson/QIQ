@@ -4,7 +4,7 @@ module Api
 
       def show
         question = Question.find_by(id: params[:id])
-        render json: question, include: ['answers']
+        render json: question, include: ['answers', 'answers.comments']
       end
 
       def update
