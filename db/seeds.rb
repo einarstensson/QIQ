@@ -122,7 +122,11 @@ e_second_answer_eight = Answer.create(question: question_eight,
   problems is interesting."
 )
 
-e_comment_second_answer_eight = Comment.create(content: "I agree.", answer: e_second_answer_eight)
+e_first_comment_second_answer_eight = Comment.create(content: "I agree.", answer: e_second_answer_eight)
+e_second_comment_second_answer_eight = Comment.create(content: "I disagree.", answer: e_second_answer_eight)
+e_third_comment_second_answer_eight = Comment.create(content: "I'm undecided.", answer: e_second_answer_eight)
+e_fourth_comment_second_answer_eight = Comment.create(content: "I don't care.", answer: e_second_answer_eight)
+
 
 #lamine answers
 #-------------------
@@ -211,7 +215,7 @@ one_answer_twenty = Answer.create(question: question_twenty, content: "I hope to
 two_answer_twenty = Answer.create(question: question_twenty, content: "I can walk you through two of my favorites app I build at flatiron. I will go over the code I wrote at first and how I refactored by deployment", vote_count: 5, vote_score: 3)
 
 one_answer_twentytwo = Answer.create(question: question_twentytwo, content: "I’ve always had problem making deadlines so the way I went about it is through creating calendars that would help me achieve my objectives.", vote_count: 5, vote_score: 1)
-two_answer_twentytwo = Answer.create(question: question_twentytwo, content: "The greatest challenge I've faced in my career to date has to be the key role I played in helping my company survive the recent recession. 
+two_answer_twentytwo = Answer.create(question: question_twentytwo, content: "The greatest challenge I've faced in my career to date has to be the key role I played in helping my company survive the recent recession.
 While we certainly did have a tough time of it, we successfully rode out the recession and the cost control measures which I personally devised and implemented ultimately resulted in a significantly healthier bottom line than we had had before the recession.", vote_count: 10, vote_score: 7)
 
 
