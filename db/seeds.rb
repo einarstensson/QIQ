@@ -122,6 +122,8 @@ e_second_answer_eight = Answer.create(question: question_eight,
   problems is interesting."
 )
 
+e_comment_second_answer_eight = Comment.create(content: "I agree.", answer: e_second_answer_eight)
+
 #lamine answers
 #-------------------
 
@@ -232,8 +234,3 @@ two_answer_twentyeight = Answer.create(question: question_twentyeight, content: 
 one_answer_thirty = Answer.create(question: question_thirty, content: "Laidback", vote_count: 10, vote_score: -2)
 two_answer_thirty = Answer.create(question: question_thirty, content: "I am a deadline onlooker I strive towards the goal and ravage anything or anybody thats on my way", vote_count: 3, vote_score: -2)
 three_answer_thirty = Answer.create(question: question_thirty, content: "I am open to the workload and task assigned by my superior. The more informed the better but I have no problem improvising and getting assignments done before the dealines", vote_count: 9, vote_score: 6)
-
-
-
-
-
