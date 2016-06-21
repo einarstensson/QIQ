@@ -180,6 +180,57 @@ one_answer_twentyseven=  Answer.create(question: question_twentyseven, content: 
 
 one_answer_twentynine = Answer.create(question: question_twentyseven, content: "Success is the march towards the realization of a worthy ideal?", vote_count: 4, vote_score: 2)
 
+one_answer_ten= Answer.create(question: question_ten, content: “I learned web-development by taking classes at the flatiron school“, vote_count: 9, vote_score: 4)
+two_answer_ten= Answer.create(question: question_ten, content: “I took some classes online which included code academy and code school. At first I didn't think too much about it but I couldn't stop looking for classes. This is when I realized I’d be interested in making it a career for me“, vote_count: 10, vote_score: 8)
+
+
+
+
+one_answer_twelve= Answer.create(question: question_twelve, content: “I’m born Sydney and live 15 years in the U.S“, vote_count: 10, vote_score: -4)
+two_answer_twelve= Answer.create(question: question_twelve, content: “I am an engineer who quickly became in love with coding at a young age. I am striving to become the best programmer I could be and I hope that with time I will be able to accomplish that goal“, vote_count: 10, vote_score: 6)
+
+
+
+
+
+one_answer_fourteen = Answer.create(question: question_fourteen, content: "Because I align with your mission and how you help the community on a daily basis", vote_count: 7, vote_score: 4)
+two_answer_fourteen = Answer.create(question: question_fourteen, content: "You're a big corporation with a lot of opportunities.", vote_count: 7, vote_score: -3)
+
+
+
+one_answer_sixteen = Answer.create(question: question_sixteen, content: "I plan to be the best programmer in the world", vote_count: 4, vote_score: -2)
+two_answer_sixteen = Answer.create(question: question_sixteen, content: "To put myself in a situation of learning where I can always give back to my community.", vote_count: 9, vote_score: 6)
+
+
+one_answer_eighteen = Answer.create(question: question_eighteen, content: "To learn as much as I can so I can advance in my career.", vote_count: 6, vote_score: -2)
+two_answer_eighteen= Answer.create(question: question_eighteen, content: "To join a company that will allow me to grow both personally and professionally", vote_count: 9, vote_score: 6)
+
+
+
+one_answer_twenty = Answer.create(question: question_twenty, content: "I hope to put myself in a situation of learning where I can always give back to my community.", vote_count: 9, vote_score: 6)
+
+
+one_answer_twentytwo = Answer.create(question: question_twentytwo, content: "I’ve always had problem making deadlines so the way I went about it is through creating calendars that would help me achieve my objectives.", vote_count: 5, vote_score: 1)
+
+
+
+one_answer_twentyfour  = Answer.create(question: question_twentyfour, content: "Because of the opportunity and lifestyle it will give me.", vote_count: 7, vote_score: -1)
+two_answer_twentyfour = Answer.create(question: question_twentyfour, content: "Because of the constant sense of creativity and joy that it gives me. Being a web developer would allow me to put myself in a position of learning from a great community of people who are always open to give.", vote_count: 4, vote_score: 3)
+
+
+one_answer_twentysix = Answer.create(question: question_twentysix, content: "Because of the mission and sense of community this company instills in the workplace." , vote_count: 6, vote_score: 4)
+two_answer_twentysix=Answer.create(question: question_twentysix, content: "I love the perks you have at your office. I can definitely utilize some free lunches", vote_count: 7, vote_score: -5)
+
+
+one_answer_twentyeight = Answer.create(question: question_twentyeight, content: "I do not thank you for your time.", vote_count: 3, vote_score: -1)
+two_answer_twentyeight = Answer.create(question: question_twentyeight, content: "What reservations our question about myself that you feel I haven't answered.", vote_count: 2, vote_score: 1)
+
+
+
+one_answer_thirty = Answer.create(question: question_thirty, content: "Laidback", vote_count: 10, vote_score: -8)
+two_answer_thirty = Answer.create(question: question_thirty, content: "I am a deadline onlooker I strive towards the goal and ravage anything or anybody thats on my way", vote_count: 3, vote_score: -2)
+three_answer_thirty = Answer.create(question: question_thirty, content: "I am open to the workload and task assigned by my superior. The more informed the better but I have no problem improvising and getting assignments done before the dealines", vote_count: 9, vote_score: 6)
+
 
 
 
