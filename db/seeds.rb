@@ -144,12 +144,12 @@ one_answer_nine= Answer.create(question: question_nine, content: "When functions
 two_answer_nine = Answer.create(question: question_nine, content: "The end of a project. Usually involves closing the books and the servers after deployment.", vote_count: 9, vote_score: -2)
 
 one_answer_eleven=  Answer.create(question: question_eleven, content: "Refactoring the code that we had previously written for our app using service and adapters.", vote_count: 7, vote_score: 4)
+two_answer_eleven=  Answer.create(question: question_eleven, content: "That would definitely involve the latest group project where we went about refactoring our app using services and adapters. Great", vote_count: 7, vote_score: 4)
 
 
 
-
-one_answer_thirteen = Answer.create(question: question_thirteen, content: "I would love to be implementing what I have learned in those previous five years by giving back to my company in a senior position", vote_count: 10, vote_score: 8)
-
+one_answer_thirteen = Answer.create(question: question_thirteen, content: "I would love to be implementing what I have learned in those previous five years by giving back to my company in a senior position.", vote_count: 10, vote_score: 8)
+two_answer_thirteen = Answer.create(question: question_thirteen, content: "I want to explore management training opportunities and also learn the finer points of this industry so I can eventually become  a company leader.", vote_count: 6, vote_score: 3)
 
 
 one_answer_fifteen = Answer.create(question: question_fifteen, content: "Prototypal inheritance (also: prototypes, OLOO). Functional programm (also: closures, first class functions, lambdas).", vote_count: 7, vote_score: 3)
@@ -171,28 +171,24 @@ one_answer_twentyone= Answer.create(question: question_twentyone, content: "inst
 two_answer_twentyone= Answer.create(question: question_twentyone, content: "No preference for prototypal inheritance & composition over class inheritance.", vote_count: 13, vote_score: -2)
 
 
-one_answer_twentythree =  Answer.create(question: question_twentythree, content: "Polymorphic association is a term used in discussions of Object-Relational Mapping with respect to the problem of representing in the relational database domain, a relationship from one class to multiple classes", vote_count: 13, vote_score: 7)
+one_answer_twentythree=  Answer.create(question: question_twentythree, content: "Polymorphic association is a term used in discussions of Object-Relational Mapping with respect to the problem of representing in the relational database domain, a relationship from one class to multiple classes", vote_count: 13, vote_score: 7)
+two_answer_twentythree= Answer.create(question: question_twentythree, content: "It’s where an ActiveRecord model can potentially belong to more than one other kind of model record.  So the single instance of your car belongs to you, a person, whereas other cars may individually belong to a car lot, a business.", vote_count: 13, vote_score: 10)
 
-
-one_answer_twentyfive=  Answer.create(question: question_twentyfive, content: "What’s that?", vote_count: 1, vote_score: -1)
+one_answer_twentyfive=  Answer.create(question: question_twentyfive, content: "What’s that?", vote_count: 12, vote_score: -9)
+two_answer_twentyfive=  Answer.create(question: question_twentyfive, content: "I usually seperate my gems in different production environments. I would deploy than deploy to heroku for some assurance and than the official website for publishing", vote_count: 6, vote_score: 3)
 
 one_answer_twentyseven=  Answer.create(question: question_twentyseven, content: "how about using the initialize method?", vote_count: 3, vote_score: -2)
+two_answer_twentyseven=  Answer.create(question: question_twentyseven, content: "The Ruby Constructor has three jobs.It allocates space for the object. It assigns instances variables their initial values. It returns the instance of that class", vote_count: 10, vote_score: 7)
 
-
-one_answer_twentynine = Answer.create(question: question_twentyseven, content: "Success is the march towards the realization of a worthy ideal?", vote_count: 4, vote_score: 2)
-
+one_answer_twentynine = Answer.create(question: question_twentynine, content: "Success is the march towards the realization of a worthy ideal?", vote_count: 4, vote_score: 2)
+two_answer_twentynine = Answer.create(question: question_twentynine, content: "I evaluate success in different ways. At work, it is meeting the goals set by my supervisors and my fellow workers. It is my understanding, from talking to other employees, that the GGR company is recognized for not only rewarding success but giving employees opportunity to grow as well.", vote_count: 4, vote_score: 2)
 
 one_answer_ten= Answer.create(question: question_ten, content: "I learned web-development by taking classes at the flatiron school", vote_count: 9, vote_score: 4)
 two_answer_ten= Answer.create(question: question_ten, content: "I took some classes online which included code academy and code school. At first I didn't think too much about it but I couldn't stop looking for classes. This is when I realized I’d be interested in making it a career for me", vote_count: 10, vote_score: 8)
 
 
-
-
 one_answer_twelve= Answer.create(question: question_twelve, content: "I’m born Sydney and live 15 years in the U.S", vote_count: 10, vote_score: -1)
 two_answer_twelve= Answer.create(question: question_twelve, content: "I am an engineer who quickly became in love with coding at a young age. I am striving to become the best programmer I could be and I hope that with time I will be able to accomplish that goal", vote_count: 10, vote_score: 6)
-
-
-
 
 
 one_answer_fourteen = Answer.create(question: question_fourteen, content: "Because I align with your mission and how you help the community on a daily basis", vote_count: 7, vote_score: 4)
@@ -201,19 +197,20 @@ two_answer_fourteen = Answer.create(question: question_fourteen, content: "You'r
 
 
 one_answer_sixteen = Answer.create(question: question_sixteen, content: "I plan to be the best programmer in the world", vote_count: 4, vote_score: -2)
-two_answer_sixteen = Answer.create(question: question_sixteen, content: "To put myself in a situation of learning where I can always give back to my community.", vote_count: 9, vote_score: 6)
+two_answer_sixteen = Answer.create(question: question_sixteen, content: "To put myself in a situation of learning where I can always give back to my community.", vote_count: 7, vote_score: 3)
 
 
 one_answer_eighteen = Answer.create(question: question_eighteen, content: "To learn as much as I can so I can advance in my career.", vote_count: 6, vote_score: -2)
-two_answer_eighteen= Answer.create(question: question_eighteen, content: "To join a company that will allow me to grow both personally and professionally", vote_count: 9, vote_score: 6)
+two_answer_eighteen= Answer.create(question: question_eighteen, content: "To join a company that will allow me to grow both personally and professionally", vote_count: 4, vote_score: 2)
 
 
 
-one_answer_twenty = Answer.create(question: question_twenty, content: "I hope to put myself in a situation of learning where I can always give back to my community.", vote_count: 9, vote_score: 6)
-
+one_answer_twenty = Answer.create(question: question_twenty, content: "I hope to put myself in a situation of learning where I can always give back to my community.", vote_count: 5, vote_score: 3)
+two_answer_twenty = Answer.create(question: question_twenty, content: "I can walk you through two of my favorites app I build at flatiron. I will go over the code I wrote at first and how I refactored by deployment", vote_count: 5, vote_score: 3)
 
 one_answer_twentytwo = Answer.create(question: question_twentytwo, content: "I’ve always had problem making deadlines so the way I went about it is through creating calendars that would help me achieve my objectives.", vote_count: 5, vote_score: 1)
-
+two_answer_twentytwo = Answer.create(question: question_twentytwo, content: "The greatest challenge I've faced in my career to date has to be the key role I played in helping my company survive the recent recession. 
+While we certainly did have a tough time of it, we successfully rode out the recession and the cost control measures which I personally devised and implemented ultimately resulted in a significantly healthier bottom line than we had had before the recession.", vote_count: 10, vote_score: 7)
 
 
 one_answer_twentyfour  = Answer.create(question: question_twentyfour, content: "Because of the opportunity and lifestyle it will give me.", vote_count: 7, vote_score: -1)
