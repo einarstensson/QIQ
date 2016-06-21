@@ -150,7 +150,7 @@ one_answer_eleven=  Answer.create(question: question_eleven, content: "Refactori
 one_answer_thirteen = Answer.create(question: question_thirteen, content: "I would love to be implementing what I have learned in those previous five years by giving back to my company in a senior position", vote_count: 10, vote_score: 8)
 
 
-ing
+
 one_answer_fifteen = Answer.create(question: question_fifteen, content: "Prototypal inheritance (also: prototypes, OLOO). Functional programm (also: closures, first class functions, lambdas).", vote_count: 7, vote_score: 3)
 two_answer_fifteen = Answer.create(question: question_fifteen, content: "Is that a new syntax part of ES7", vote_count: 7, vote_score: -5)
 three_answer_fifteen = Answer.create(question: question_fifteen, content: "JavaScript is a multi-paradigm language, supporting imperative/procedural programming along with OOP (Object-Oriented Programming) and functional programming. JavaScript supports OOP with prototypal inheritance.", vote_count: 7, vote_score: 7)
